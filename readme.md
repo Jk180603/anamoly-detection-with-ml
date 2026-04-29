@@ -59,7 +59,7 @@ Monitoring Report
 Automatic Retraining Trigger
 ```
 
-#Model Approach
+##Model Approach
 
 The model learns normal sensor behavior.
 During inference:
@@ -76,7 +76,7 @@ Example:
   "status": "ANOMALY"
 }
 
-#Tech Stack
+##Tech Stack
 
 Python, PyTorch
 FastAPI
@@ -86,7 +86,7 @@ Docker & Docker Compose
 Pytest
 GitHub Actions
 
-#Run Locally
+##Run Locally
 
 Install dependencies:
 pip install -r requirements.txt
@@ -94,7 +94,7 @@ pip install -r requirements.txt
 Run FastAPI:
 uvicorn app.main:app --reload
 
-Run Streamlit
+##Run Streamlit
 streamlit run streamlit/streamlit_app.py
 
 
